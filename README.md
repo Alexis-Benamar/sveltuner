@@ -1,6 +1,6 @@
 # sveltuner
 
-> _just a bit more... just a bit less...
+> _just a bit more... just a bit less..._
 
 A simple bass / guitar tuner made with SvelteKit. It doesnt actually listen for sounds but plays back the correct note when the corresponding string is pressed.
 
