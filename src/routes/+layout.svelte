@@ -16,11 +16,15 @@
 <main class='container'>{@render children?.()}</main>
 
 <style>
-	.title {
-		display: flex;
+	header {
+		padding-block: 16px;
 
-		.note {
-			margin-left: auto;
+		.title {
+			display: flex;
+
+			.note {
+				margin-left: auto;
+			}
 		}
 	}
 
