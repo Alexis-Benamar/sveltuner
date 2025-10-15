@@ -2,6 +2,9 @@
 
 > _just a bit more... just a bit less..._
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/70ecad19-b413-44bd-ba84-92c415a73450/deploy-status)](https://app.netlify.com/projects/sveltuner/deploys)
+
+
 A simple bass / guitar tuner made with SvelteKit. It doesnt actually listen for sounds but plays back the correct note when the corresponding string is pressed.
 
 ## Testing locally

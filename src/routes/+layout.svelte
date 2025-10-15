@@ -1,5 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
+	import '$lib/assets/matcha-custom.css';
 
 	let { children } = $props();
 </script>
