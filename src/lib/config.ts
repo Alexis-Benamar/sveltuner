@@ -14,6 +14,10 @@ export const tunings = {
 			keys: ['E1', 'A1', 'D2', 'G2'],
 		},
 		{
+			name: '4 strings (drop D)',
+			keys: ['D1', 'A1', 'D2', 'G2'],
+		},
+		{
 			name: '5 strings',
 			keys: ['B0', 'E1', 'A1', 'D2', 'G2'],
 		},
@@ -22,6 +26,14 @@ export const tunings = {
 		{
 			name: '6 strings',
 			keys: ['E2', 'A2', 'D3', 'G3', 'B3', 'E4'],
+		},
+		{
+			name: '6 strings (drop D)',
+			keys: ['D2', 'A2', 'D3', 'G3', 'B3', 'E4'],
+		},
+		{
+			name: '6 strings (DADGAD)',
+			keys: ['D2', 'A2', 'D3', 'G3', 'A3', 'D4'],
 		},
 	] as const,
 } satisfies Record<TInstruments, TTuning[]>;

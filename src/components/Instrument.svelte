@@ -1,5 +1,5 @@
 <script lang='ts'>
-	import type { TInstruments, TTuning } from '$lib/types';
+	import type { TInstruments, TTuning } from '$lib/config';
 
   interface Props {
     instrument: TInstruments

@@ -1,5 +1,5 @@
 <script lang='ts'>
-	import { instruments, tunings, type TInstruments, type TTuning } from '$lib/types';
+	import { instruments, tunings, type TInstruments, type TTuning } from '$lib/config';
 	import Instrument from '../components/Instrument.svelte';
 
   let instrument = $state<TInstruments>(instruments[0]);
