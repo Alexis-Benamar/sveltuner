@@ -3,10 +3,19 @@
 	import '$lib/assets/matcha-custom.css';
 
 	let { children } = $props();
+	let description = 'A simple bass / guitar tuner made with SvelteKit. It doesnt actually listen for sounds but plays back the correct note when the corresponding string is pressed.'
+	let title = 'sveltuner'
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<meta name="description" content={description}>
+  <meta property="og_site_name" content={title}>
+  <meta property="og:url" content="https://sveltuner.cacti.ovh">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <!-- <meta property="og:image" content={image}> -->
 </svelte:head>
 
 <header>

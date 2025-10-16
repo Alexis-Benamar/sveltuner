@@ -25,7 +25,6 @@ pnpm run dev --open
 
 ## TODO
 
-- meta tags
 - record sounds for each string tuning
 - play the sounds when buttons are pressed / stop it with the mute button
 - maaaaaaybe add localstorage to save last used setting
