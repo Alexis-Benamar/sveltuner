@@ -22,3 +22,10 @@ pnpm run dev
 # same but directly open the app in a browser tab
 pnpm run dev --open
 ```
+
+## TODO
+
+- record sounds for each string tuning
+- play the sounds when buttons are pressed / stop it with the mute button
+- maaaaaaybe add localstorage to save last used setting
+- add styling once everything works

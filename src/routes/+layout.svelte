@@ -10,7 +10,7 @@
 </svelte:head>
 
 <header>
-	<h1 class="title">Sveltuner<span class="note">🎶</span></h1>
+	<h1 class="title">sveltuner<span class="note">🎶</span></h1>
 </header>
 
 <main class='container'>{@render children?.()}</main>
