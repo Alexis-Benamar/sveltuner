@@ -9,6 +9,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>{title}</title>
 	<meta name="description" content={description}>
   <meta property="og_site_name" content={title}>
   <meta property="og:url" content="https://sveltuner.cacti.ovh">
