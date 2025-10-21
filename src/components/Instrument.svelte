@@ -15,15 +15,15 @@
     player = new Audio();
   })
 
-  function play(notePath: string) {
+  function play(note: string) {
     if (!player) return
 
     if (!player.paused) {
       player.pause();
     }
 
-    if (notePath !== player.src) {
-      player.src = notePath;
+    if (!player.src.includes(note)) {
+      player.src = `/sounds/${instrument}/${note}.ogg`;
     }
 
     player.currentTime = 0;
@@ -40,9 +40,8 @@
 
 {#if tuning}
   <div class="strings">
-    {#each tuning.keys as note}
-      {@const notePath = `src/lib/assets/sounds/${instrument}/${note}.ogg`}
-      <button class='note' onclick={() => play(notePath)}>{note}</button>
+    {#each tuning.notes as note}
+      <button class='note' onclick={() => play(note)}>{note}</button>
     {/each}
   </div>
   <button class='mute' onclick={stop}>mute</button>
