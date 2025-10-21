@@ -25,7 +25,7 @@ pnpm run dev --open
 
 ## TODO
 
-- record sounds for each string tuning
+- "record" B0 (bass) & D4 (guitar) 
 - play the sounds when buttons are pressed / stop it with the mute button
 - maaaaaaybe add localstorage to save last used setting
 - add styling once everything works
