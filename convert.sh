@@ -8,7 +8,7 @@ fi
 for i in `seq 1 2`;
 do
   if [ $i = 1 ]; then
-    cd src/lib/assets/sounds/bass;
+    cd static/sounds/bass;
   else
     cd ../guitar;
   fi
