@@ -25,6 +25,5 @@ pnpm run dev --open
 
 ## TODO
 
-- "record" B0 (bass) & D4 (guitar) 
 - maaaaaaybe add localstorage to save last used setting
 - add styling once everything works
